@@ -27,7 +27,7 @@ function destructivelyRemoveFirstKitten() {
 
 //apend a kitten to the kittens array and returns a new array leaving the kittens array unchanged
 function appendKitten(name) {
-  return [...kittens,name]
+  return kittens.contact(0,kittens.length-1)
 }
 
 //prepend a kitten in the same manner
@@ -39,3 +39,5 @@ function prependKitten(name) {
 function removeLastKitten() {
   return kittens.slice(0,kittens.length-1)
 }
+
+//remove the first kitten from the array without
