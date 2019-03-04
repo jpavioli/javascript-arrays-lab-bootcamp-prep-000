@@ -12,5 +12,10 @@ function destructivelyAppendKitten(name){
 
 // destructively prepend a kitten to the beggining of the array
 function destructivelyPrependKitten(name){
-  return kittens.shift(name)
+  return kittens.unshift(name)
+}
+
+// destructively remove the last kitten from the array
+function destructivelyRemoveLastKitten() {
+  return kittens.pop(0,kittens.length-1)
 }
