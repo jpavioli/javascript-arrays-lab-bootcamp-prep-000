@@ -19,3 +19,19 @@ function destructivelyPrependKitten(name){
 function destructivelyRemoveLastKitten() {
   return kittens.pop(0,kittens.length-1)
 }
+
+//destructively remove the first kitten from the array
+function destructivelyRemoveFirstKitten() {
+  return kittens.shift(1)
+}
+
+//apend a kitten to the kittens array and returns a new array leaving the kittens array unchanged
+function appendKitten(name) {
+  return [...kittens,name]
+}
+
+//prepend a kitten in the same manner
+function prependKitten(name) {
+  return [name,...kittens]
+}
+
