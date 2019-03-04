@@ -32,7 +32,7 @@ function appendKitten(name) {
 
 //prepend a kitten in the same manner
 function prependKitten(name) {
-  return [name,...kittens]
+  return kittens.concat(0,kittens.length-1)
 }
 
 //remove the last kitten in the kittens array and return a new array
