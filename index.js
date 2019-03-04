@@ -9,3 +9,8 @@ var kittens = [
 function destructivelyAppendKitten(name){
   return kittens.push(name)
 }
+
+// destructively prepend a kitten to the beggining of the array
+function destructivelyPrependKitten(name){
+  return kittens.shift(name)
+}
