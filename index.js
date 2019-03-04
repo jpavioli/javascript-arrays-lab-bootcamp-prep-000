@@ -40,4 +40,4 @@ function removeLastKitten() {
   return kittens.slice(0,kittens.length-1)
 }
 
-//remove the first kitten from the array without
+//remove the first kitten from the array and return a new array
