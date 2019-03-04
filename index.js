@@ -1,7 +1,11 @@
+//define kittens array 
 var kittens = [
   "Milo",
   "Otis",
   "Garfield"
-] //define your array here
+] 
 
-// Add your functions and code here
+// distructively add a kitten to the end of kittens array
+function destructivelyAppendKitten(name){
+  return kittens.push(name)
+}
